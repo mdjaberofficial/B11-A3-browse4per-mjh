@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse4Pets</title>
+    <link rel="shortcut icon" href="c1-assets/logo-header.png" type="image/x-icon">
+
+    <!-- daisyUI and TailwindCSS -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/6dcef3cb60.js" crossorigin="anonymous"></script>
+
+    <!-- Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+     <style>
+        
+        .font-sora {
+        font-family: "Sora", sans-serif;
+        }
+        .font-adlam-display {
+        font-family: "ADLaM Display", system-ui;
+        }
+
+     </style>
+</head>
+<body class="font-sora">
+    <header class="">
+        <!-- navbar -->
+         <div class="bg-[#FFF9F4] w-full">
+        <div class="navbar  container mx-auto px-3">
+            <div class="navbar-start">
+                <img class="max-w-7 mr-2" src="c1-assets/logo-header.png" alt="">
+                <a class="text-[#111111] text-2xl hidden lg:flex">Browse<span class="text-[#FFDC26]">4</span>Pets</a>
+            </div>
+                <div class="navbar-center hidden lg:flex ">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a>Find a pet</a></li>
+                    <li><a>Breeds</a></li>
+                    <li><a>Contact us</a></li>
+                </ul>
+                </div>
+                <div class="navbar-end gap-3 hidden lg:flex">
+                    <i class="fa-regular fa-bell text-2xl text-[#111111]"></i>
+                    <i class="fa-solid fa-magnifying-glass text-2xl text-[#111111]"></i>
+                    <button class="btn btn-outline btn-warning text-[#111111]">Login</button>
+                    <button class="btn btn-warning text-[#111111]">Register</button>
+                </div>
+                <div class="navbar-end lg:hidden">
+                    <div class="dropdown dropdown-end">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+                    </div>
+                    <ul
+                        tabindex="-1"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                        <li><a>Find a pet</a></li>
+                        <li><a>Breeds</a></li>
+                        <li><a>Contact us</a></li>
+                        <li><a>Search</a></li>
+                        <li><a>Notification</a></li>
+                    </ul>
+                </div>
+                </div>
+            
+    </div>
+    </div>
+    </header>
+    <main>
+    </main>
+    <footer></footer>
+</body>
+</html>
